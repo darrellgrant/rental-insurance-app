@@ -22,10 +22,10 @@ $username ="";
                         echo "You are logged in";
                     }
                 ?>
-                <div><img src="neighborly_logo_wht.png" class="logo-img"alt=""></div>
+                <div><img src="images/neighborly_logo_wht.png" class="logo-img"alt=""></div>
 
                 <div>
-                    <img src="stuff.png" class="stuff-img" alt="">
+                    <img src="images/stuff.png" class="stuff-img" alt="">
                 </div>
                 <p id="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestias provident fugiat dolor odit atque.</p>
                 
@@ -49,7 +49,7 @@ $username ="";
             Vitae dolores perferendis quaerat inventore voluptatum ipsum illum, et totam.</p>
             </div>
 
-        <div><img src="toys.png" class="toys-img" alt=""></div>
+        <div><img src="images/toys.png" class="toys-img" alt=""></div>
 
     </div>
 </section>
@@ -95,7 +95,7 @@ $username ="";
 
 <section class="section" id="contact">
     <div>
-        <img src="howdy.png" class="howdy-img" alt="">
+        <img src="images/howdy.png" class="howdy-img" alt="">
     </div>
     
     <div class="move">
