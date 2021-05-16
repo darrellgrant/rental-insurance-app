@@ -373,6 +373,7 @@ section.main-row {
 /*-------*/
 section#home {
   background-color: rgb(150, 240, 241);
+  background-image: url("images/room.jpg");
 }
 
 section#about {
