@@ -37,6 +37,7 @@ session_start();
                             <li><a href="index.php#about" class="underline" >About</a></li>
                             <li><a href="index.php#services" class="underline">Services</a></li>
                             <li><a href="index.php#contact" class="underline">Contact</a></li>
+                            <li><a href="demo.php" class="underline">Demo</a></li>
 
                             <!--user is not logged in-->
                             <?php

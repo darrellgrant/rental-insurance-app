@@ -373,7 +373,11 @@ section.main-row {
 /*-------*/
 section#home {
   background-color: rgb(150, 240, 241);
-  background-image: url("images/room.jpg");
+  background-position: center center;
+  /* background-image: url("images/room.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section#about {
@@ -750,7 +754,7 @@ h1.neighborly {
   margin: auto;
   max-width: 400px;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
 
@@ -814,6 +818,24 @@ td {
 @media (max-height: 740px) {
   img.stuff-img {
     width: 300px;
+  }
+}
+
+@media (min-width: 1025px) {
+  section#home {
+    background-image: url("images/room.jpg");
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  section#home {
+    background-image: url("images/room-tablet.jpg");
+  }
+}
+
+@media (max-width: 480px) {
+  section#home {
+    background-image: url("images/room-mobile.jpg");
   }
 }
 
