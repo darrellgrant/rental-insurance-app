@@ -25,9 +25,12 @@ $result = $conn->query("SELECT * FROM items WHERE user_id=2");
     <div class="two-section-div"> 
         <div class="demo-label">
             <h2>Demo</h2>
-            <p>In this demo, you can list items of value you 
-                wish to insure (via the form at the bottom). Those items will appear in the table below.</p>
-            <p>You can also update or remove items from your list (using the Edit and Delete buttons).  </p>
+            <p>Welcome to the Neighborly Insurance Demo Page</p>
+            <p>In the submission form below, list items of value you 
+                wish to insure. Those items will appear in the item table.</p><br>
+            <p>You can also update or remove items from the item table (using the Edit and Delete buttons).  </p><br>
+            <p>Note: pick an item you wish to update and that item's info will appear pre-filled in the submission form. 
+            Just edit the pre-filled info and submit. </p>
         </div>
 <section id="table-wrapper">  
 <table class="my-table" id="table">

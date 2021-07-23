@@ -25,7 +25,7 @@ session_start();
                 <div class="main-wrapper" id="nav-wrapper">
                     <div class="logo-container">
                     <a href="index.php#home">
-                        <img src="neighborly_logo_circle.png" class="small-logo-img" alt=""></a>
+                        <img src="images/neighborly_logo_circle.png" class="small-logo-img" alt=""></a>
                     </div>
                     <!--hamburger menu-->
                     <button class="hamburger" id="hamburger">
@@ -37,6 +37,7 @@ session_start();
                             <li><a href="index.php#about" class="underline" >About</a></li>
                             <li><a href="index.php#services" class="underline">Services</a></li>
                             <li><a href="index.php#contact" class="underline">Contact</a></li>
+                            <li><a href="demo.php" class="underline">Demo</a></li>
 
                             <!--user is not logged in-->
                             <?php
